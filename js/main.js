@@ -52,7 +52,7 @@ $(document).ready(()=>{
     if (result.online) {
       $(".sip").html(result.players.now);
     } else {
-      $(".playercount").html("Server isn't online!");
+      $(".playercount").html("KEDACraft is currently offline");
     }
   });
 
@@ -61,7 +61,7 @@ $(document).ready(()=>{
       if (result.online) {
         $(".sip").html(result.players.now);
       } else {
-        $(".playercount").html("Server isn't online!");
+        $(".playercount").html("KEDACraft is currently offline");
       }
     });
   }, 3000);

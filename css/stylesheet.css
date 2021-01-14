@@ -29,6 +29,11 @@ html, body {
 	        align-items: center;
 }
 
+.main-title {
+	font-size: 690%;
+	color: white;
+}
+
 a {
 	text-decoration: none;
 }
@@ -221,4 +226,6 @@ p {
 	.item:not(:first-child) {
 		margin-left: 90px;
 	}
+}
+.main-title {
 }
